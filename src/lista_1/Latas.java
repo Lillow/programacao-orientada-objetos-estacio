@@ -1,9 +1,7 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+3° Escreva uma classe para calcular a quantidade de latas de tinta e o custo para pintar um tanque no
+formato cilíndrico. Para isto são fornecidos o raio e a altura desse cilindro. Sabendo que:
 
 *******************************************************************************/
 import java.util.Scanner;
