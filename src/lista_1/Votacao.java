@@ -4,8 +4,11 @@
 votos serão obtidos através dos códigos de cada candidato de acordo com a tabela abaixo. Ao
 informar o código zero o algoritmo encerra.
 *******************************************************************************/
+package lista_1;
+
+
 import java.util.Scanner;
-public class Main
+public class Votacao
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
