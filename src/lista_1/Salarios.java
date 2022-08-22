@@ -8,7 +8,7 @@ somar todos os reajustes.
 
 *******************************************************************************/
 import java.util.Scanner;
-public class Main
+public class Salarios
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
