@@ -5,8 +5,11 @@ nome de um livro que será emprestado, o tipo de usuário(professor ou aluno) e 
 recibo conforme a seguir:
 
 *******************************************************************************/
+package lista_1;
+
+
 import java.util.Scanner;
-public class Main
+public class Biblioteca
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
