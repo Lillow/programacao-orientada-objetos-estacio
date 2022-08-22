@@ -6,7 +6,7 @@ formato cilíndrico. Para isto são fornecidos o raio e a altura desse cilindro.
 *******************************************************************************/
 import java.util.Scanner;
 
-public class Main
+public class Latas
 {
 
 	public static void main(String[] args) {
