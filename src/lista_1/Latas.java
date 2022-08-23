@@ -1,9 +1,11 @@
 /******************************************************************************
 
-3° Escreva uma classe para calcular a quantidade de latas de tinta e o custo para pintar um tanque no
+3. Escreva uma classe para calcular a quantidade de latas de tinta e o custo para pintar um tanque no
 formato cilíndrico. Para isto são fornecidos o raio e a altura desse cilindro. Sabendo que:
 
 *******************************************************************************/
+package lista_1;
+
 import java.util.Scanner;
 
 public class Latas

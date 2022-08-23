@@ -1,6 +1,6 @@
 /******************************************************************************
 
-16° Escrever uma classe para fazer a apuração dos votos de uma eleição onde há quatro candidatos. Os
+16. Escrever uma classe para fazer a apuração dos votos de uma eleição onde há quatro candidatos. Os
 votos serão obtidos através dos códigos de cada candidato de acordo com a tabela abaixo. Ao
 informar o código zero o algoritmo encerra.
 *******************************************************************************/
