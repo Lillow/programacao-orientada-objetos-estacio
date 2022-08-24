@@ -1,6 +1,6 @@
 /******************************************************************************
 
-18° Criar uma classe onde atenda às necessidades de uma biblioteca que deseja um algoritmo que leia o
+18. Criar uma classe onde atenda às necessidades de uma biblioteca que deseja um algoritmo que leia o
 nome de um livro que será emprestado, o tipo de usuário(professor ou aluno) e possa imprimir um
 recibo conforme a seguir:
 
