@@ -83,7 +83,6 @@ public class Aviao {
 			for (int i = cidade1; i <= cidade1; i++) {
 				for (int j = 0; j <= cidade2; j++) {
 					total += distancias[i][j];
-					System.out.println(distancias[i][j]);
 				}
 			}
 
