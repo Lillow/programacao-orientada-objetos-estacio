@@ -1,6 +1,6 @@
 /******************************************************************************
 
-18. Escreva uma classe que receberá o nome e o salário de cinco funcionários e aplique o reajuste salarial
+17. Escreva uma classe que receberá o nome e o salário de cinco funcionários e aplique o reajuste salarial
 de acordo com a tabela abaixo. Ao final informe o salário anterior, o valor que será acrescido após
 aplicar o percentual de reajuste e também informe o novo valor de salário de cada funcionário.
 Também informe qual o valor total que a empresa terá a mais em sua folha de pagamento após
