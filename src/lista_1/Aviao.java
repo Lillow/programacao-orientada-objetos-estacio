@@ -56,7 +56,7 @@ public class Aviao {
 
 //		for (int i = 0; i < cidades.length; i++) {
 //			for (int j = 0; j < cidades.length; j++) {
-//				System.out.print(" [" + distancias[i][j] + "] ");
+//				System.out.printf("[%d]\t",distancias[i][j]);
 //			}
 //			System.out.println();
 //		}
