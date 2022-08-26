@@ -1,6 +1,6 @@
 /******************************************************************************
 
-9° Imprimir a tabuada de multiplicação do número 7 utilizando as três estruturas de repetição em java
+9. Imprimir a tabuada de multiplicação do número 7 utilizando as três estruturas de repetição em java
 (while, do while e for).Crie três classes cada uma com uma estrutura.
 
 *******************************************************************************/
