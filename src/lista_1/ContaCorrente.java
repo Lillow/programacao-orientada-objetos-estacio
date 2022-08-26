@@ -13,8 +13,10 @@ Soma resultado: 1 + 2 + 9 + 12 + 15 + 0 = 39
 
 *******************************************************************************/
 
-package lista_1;
 //Imcompleta!
+
+package lista_1;
+
 import java.util.Scanner;
 
 public class ContaCorrente {

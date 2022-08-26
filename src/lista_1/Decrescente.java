@@ -1,15 +1,18 @@
+/******************************************************************************
+ 
+4. Escreva uma classe que receba do usuário cinco diferentes números inteiros e exiba em ordem 
+decrescente. Para isto utilize uma condicional encadeada
+Pra determinar o maior valor
+Que vem em primeiro lugar na ordenação
+Quando achar, coloca no primeiro slot do vetor de resposta
+Pula um índice e repete o processo
+Até percorrer todo o vetor
+
+*******************************************************************************/
+
 package lista_1;
 
 import java.util.Scanner;
-
-//4. Escreva uma classe que receba do usuário cinco diferentes números inteiros e exiba em ordem 
-//decrescente. Para isto utilize uma condicional encadeada
-
-//Pra determinar o maior valor
-//Que vem em primeiro lugar na ordenação
-//Quando achar, coloca no primeiro slot do vetor de resposta
-//Pula um índice e repete o processo
-//Até percorrer todo o vetor
 
 public class Decrescente {
 
