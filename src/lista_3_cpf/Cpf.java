@@ -8,7 +8,7 @@ e retorne no formato de CPF.
 public class Cpf {
 	public static String formatCpf(String cpf) {
 
-		if (cpf.length() < 11 || cpf.length() > 11) {
+		if (cpf.length() != 11) {
 			return "Inválido";
 		}
 
