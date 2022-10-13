@@ -1,4 +1,4 @@
-package lsita_5_equipamento;
+package lista_5_equipamento;
 
 /******************************
 2. Implementar o seguinte programa para controle de equipamentos.

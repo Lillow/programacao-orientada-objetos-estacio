@@ -1,4 +1,4 @@
-package lsita_5_equipamento;
+package lista_5_equipamento;
 
 public class EquipamentoSonoro extends Equipamento {
 	private static short volume;

@@ -1,4 +1,4 @@
-package lsita_5_equipamento;
+package lista_5_equipamento;
 
 public class TesteEquipamento {
 	public static void main(String[] args) {
