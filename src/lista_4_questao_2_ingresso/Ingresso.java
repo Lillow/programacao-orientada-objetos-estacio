@@ -18,7 +18,7 @@ package lista_4_questao_2_ingresso;
  * camarote superior ou inferior.Imprima o valor do ingresso.
  *********************/
 
-public class Ingresso {
+public abstract class Ingresso {
 	private float valor;
 
 	public Ingresso(float valor) {
@@ -32,15 +32,13 @@ public class Ingresso {
 	public void setValor(float valor) {
 		this.valor = valor;
 	}
-	
+
 	public void imprimeValor() {
 		System.out.printf("R$ %.2f", valor);
 	}
 
-	public void tipoIngresso() {
-	}
-	
-	public void imprimeAdicional() {
-	}
+	public abstract void tipoIngresso();
+
+	public abstract void imprimeAdicional();
 
 }

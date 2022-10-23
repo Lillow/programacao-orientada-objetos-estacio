@@ -10,4 +10,9 @@ public class Normal extends Ingresso {
 		System.out.printf("Ingresso Normal ");
 	}
 
+	@Override
+	public void imprimeAdicional() {
+
+	}
+
 }

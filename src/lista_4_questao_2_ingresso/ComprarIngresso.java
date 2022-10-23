@@ -5,7 +5,19 @@ import java.util.Scanner;
 public class ComprarIngresso {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		Ingresso ingresso = new Ingresso(0);
+		Ingresso ingresso = new Ingresso(0) {
+
+			@Override
+			public void tipoIngresso() {
+
+			}
+
+			@Override
+			public void imprimeAdicional() {
+
+			}
+
+		};
 		byte escolha;
 		byte escolha2 = 0;
 
@@ -26,25 +38,25 @@ public class ComprarIngresso {
 			System.out.println();
 			System.out.println("Digite 1 para Camarote Inferior e 2 Camarote Superior");
 			escolha2 = scan.nextByte();
-			if(escolha2 == 1) {
+			if (escolha2 == 1) {
 				ingresso = new CamaroteInferior(200, 200);
 				ingresso.tipoIngresso();
-			}else if(escolha2 == 2) {
+			} else if (escolha2 == 2) {
 				ingresso = new CamaroteSuperior(200, 200, 150);
 				ingresso.tipoIngresso();
-			}else {
+			} else {
 				System.out.println("Opção inválida");
 			}
 			break;
-			
-			
+
 		}
 		default:
-			System.out.println("Opção inválida.");;
+			System.out.println("Opção inválida.");
+			;
 		}
 		System.out.print("Valor do ingresso ");
 		ingresso.imprimeValor();
-		
+
 		if (escolha == 2) {
 			ingresso.imprimeAdicional();
 		}
