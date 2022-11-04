@@ -21,6 +21,7 @@ package lista_10_Classes_Abstratas_Interfaces_2;
  * área de estudo).
  * 
  ******************************/
+
 public abstract class Pessoa {
 	private String nome;
 
