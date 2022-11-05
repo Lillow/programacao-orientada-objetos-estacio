@@ -8,23 +8,10 @@ public class TesteConta {
 		Scanner scan = new Scanner(System.in);
 		CadastroContas conta = new CadastroContas();
 
-		String cliente = "", fornecedor = "";
-		int numConta = 1;
-		double contaApagar = 1;
-		double contaAreceber = 1;
-		try {
-			conta.inserir(cliente, fornecedor, numConta, contaApagar, contaAreceber);
-			conta.buscar(numConta);
-
-		} catch (ExcecaoContaJaExistente e) {
-			System.out.println(e.getMessage());
-
-		} catch (ExcecaoCadastroCheio e) {
-			System.out.println(e.getMessage());
-		} catch (ExcecaoContaInexistente e) {
-			System.out.println(e.getMessage());
-		}
-
+		String cliente, fornecedor;
+		int numConta;
+		double contaApagar;
+		double contaAreceber;
 		try {
 			System.out.println("Cliente: ");
 			cliente = scan.next();
@@ -40,9 +27,17 @@ public class TesteConta {
 
 			System.out.println("Número Conta: ");
 			contaAreceber = scan.nextDouble();
+			conta.inserir(cliente, fornecedor, numConta, contaApagar, contaAreceber);
+			conta.buscar(numConta);
 
+		} catch (ExcecaoContaJaExistente e) {
+			System.out.println(e.getMessage());
+		} catch (ExcecaoCadastroCheio e) {
+			System.out.println(e.getMessage());
+		} catch (ExcecaoContaInexistente e) {
+			System.out.println(e.getMessage());
 		} catch (InputMismatchException e) {
-			System.out.println("ExcecaoDadoInvalido");
+			System.out.println("Excecao Dado Inválido");
 		}
 
 	}
