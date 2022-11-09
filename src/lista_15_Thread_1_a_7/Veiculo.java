@@ -1,4 +1,4 @@
-package lista_15_Thread;
+package lista_15_Thread_1_a_7;
 
 /******************************
  * 1. Crie uma classe chamada Veiculo, que conterá os seguintes atributos

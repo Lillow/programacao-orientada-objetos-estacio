@@ -1,4 +1,4 @@
-package lista_15_Thread;
+package lista_15_Thread_1_a_7;
 
 public class Teste {
 
