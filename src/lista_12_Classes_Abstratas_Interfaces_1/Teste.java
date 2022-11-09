@@ -6,17 +6,17 @@ public class Teste {
 		Aviao aviao = new Aviao();
 
 		aviao.setNome("Avião");
-		aviao.setNumeroPassageiro(80);
+		System.out.println(aviao.getNome());
+		aviao.setNumeroPassageiro(407);
+		aviao.setNumeroMotores(4);
+		aviao.abastecer(300000);
 		aviao.ligarMotor();
 		aviao.setVelocidadeAtual(200);
 		aviao.setAltitudeAtual(250);
-		aviao.setNumeroMotores(4);
 		aviao.subir(20);
 		aviao.descer(60);
 		aviao.curvar(20);
-		aviao.abastecer(60);
 
-		System.out.println(aviao.getNome());
 		System.out.println("NumeroPassageiro: " + aviao.getNumeroPassageiro());
 		System.out.println("Velocidade Atual: " + aviao.getVelocidadeAtual());
 		System.out.println("Altitude Atual: " + aviao.getAltitudeAtual());
@@ -26,15 +26,15 @@ public class Teste {
 		Balao balao = new Balao();
 
 		balao.setNome("Balão");
+		System.out.println(balao.getNome());
 		balao.setNumeroPassageiro(4);
 		balao.setVelocidadeAtual(50);
 		balao.setAltitudeAtual(90);
-		balao.aquecerAr(5);
+		balao.aquecerAr(10);
 		balao.largarPeso(6);
 		balao.subir(10);
 		balao.descer(20);
 
-		System.out.println(balao.getNome());
 		System.out.println("NumeroPassageiro: " + balao.getNumeroPassageiro());
 		System.out.println("Velocidade Atual: " + balao.getVelocidadeAtual());
 		System.out.println("Altitude Atual: " + balao.getAltitudeAtual());
@@ -45,6 +45,7 @@ public class Teste {
 		Carro carro = new Carro();
 
 		carro.setNome("Carro");
+		System.out.println(carro.getNome());
 		carro.setNumeroPassageiro(5);
 		carro.setVelocidadeAtual(0);
 		carro.setTipo("asdf");
@@ -53,7 +54,6 @@ public class Teste {
 		carro.ligarMotor();
 		carro.embreiar();
 
-		System.out.println(carro.getNome());
 		System.out.println("NumeroPassageiro: " + carro.getNumeroPassageiro());
 		System.out.println("Velocidade Atual: " + carro.getVelocidadeAtual());
 		System.out.println("Está Parado: " + carro.estaParado());
@@ -62,6 +62,7 @@ public class Teste {
 		Bicicleta bicicleta = new Bicicleta();
 
 		bicicleta.setNome("Bicicleta");
+		System.out.println(bicicleta.getNome());
 		bicicleta.setNumeroPassageiro(1);
 		bicicleta.setVelocidadeAtual(5);
 		bicicleta.setTipo("asdf");
@@ -69,7 +70,6 @@ public class Teste {
 		bicicleta.pedalar();
 		bicicleta.pedalar();
 
-		System.out.println(bicicleta.getNome());
 		System.out.println("NumeroPassageiro: " + bicicleta.getNumeroPassageiro());
 		System.out.println("Velocidade Atual: " + bicicleta.getVelocidadeAtual());
 		System.out.println("Está Parado: " + bicicleta.estaParado());

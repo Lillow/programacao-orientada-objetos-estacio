@@ -28,7 +28,7 @@ public class Balao extends TransporteAereo {
 	}
 
 	public void aquecerAr(float temp) {
-
+		System.out.println("Aquecendo a " + temp + "°");
 	}
 
 }

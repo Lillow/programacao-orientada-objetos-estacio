@@ -23,16 +23,16 @@ public class Aviao extends TransporteAereo implements Motorizado, Conduzivel {
 		setAltitudeAtual(getAltitudeAtual() - metros);
 	}
 
-	public void curvar(float andulo) {
-
+	public void curvar(float angulo) {
+		System.out.println("Curva " + angulo + "°");
 	}
 
 	public void abastecer(int qtdLitros) {
-
+		System.out.println("Abasteceu " + qtdLitros + "L");
 	}
 
 	public void ligarMotor() {
-
+		System.out.println("Motor ligado");
 	}
 
 }

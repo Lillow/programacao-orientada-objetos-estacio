@@ -6,11 +6,11 @@ public class Bicicleta extends TransporteTerrestre implements Conduzivel {
 	}
 
 	public void estacionar() {
-
+		System.out.println("Estacionando.");
 	}
 
-	public void curvar(float andulo) {
-
+	public void curvar(float angulo) {
+		System.out.println("Curva " + angulo + "°");
 	}
 
 	public void pedalar() {
