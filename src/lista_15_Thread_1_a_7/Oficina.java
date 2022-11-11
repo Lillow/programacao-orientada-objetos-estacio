@@ -22,42 +22,42 @@ import java.util.Scanner;
  */
 
 public class Oficina {
+	private Veiculo veiculos[] = new Veiculo[100];
+	private double valorApurado;
+	private int finalFila = 0;
+	private int inicioFila = 0;
 
-	private Veiculo[] veiculos;
-	private double valorApuradoDaOficina;
-	Scanner scan = new Scanner(System.in);
-
-	public void adicionarVeiculoFila(Veiculo v) {
-		for (int i = 0; i < veiculos.length + 1; i++) {
-			veiculos[i] = v;
-		}
+	public Oficina() {
 	}
 
-	public void atenderProximo(Veiculo v) {
-		v.limpar();
-		v.ajustar();
-		String decisao;
-		int valor;
+	public void adicionarVeiculoFila(Veiculo v) {
+		this.veiculos[finalFila] = v;
+		this.finalFila++;
+	}
 
-		System.out.println("Deseja incrementar o veículo?");
-		decisao = scan.next();
-		if (decisao == "Sim" || decisao == "sim") {
-			valor = scan.nextInt();
-			v.incrementarVeloc(valor);
+	public void atenderProximo() {
+		this.veiculos[inicioFila].limpar();
+		this.veiculos[inicioFila].ajustar();
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Você deseja incrementar o veículo?");
+		String respostaIncremento = scan.next();
+
+		if (respostaIncremento.equalsIgnoreCase("sim") || respostaIncremento.equalsIgnoreCase("Sim")) {
+			System.out.println("Qual o valor do incremento?");
+			int valorIncremento = scan.nextInt();
+			this.veiculos[inicioFila].incrementarVeloc(valorIncremento);
 		}
-
-		if (v.getTipo() == "Carro") {
-			v = new Carro();
-			System.out.println("Trocar óleo? ");
-			decisao = scan.next();
-			if (decisao == "Sim" || decisao == "sim") {
-
+		if (this.veiculos[inicioFila] instanceof Carro) {
+			System.out.println("Deseja trocar o óleo?");
+			String respostaOleo = scan.next();
+			if (respostaOleo.equalsIgnoreCase("sim") || respostaOleo.equalsIgnoreCase("Sim")) {
+				Carro carro = (Carro) this.veiculos[inicioFila];
+				carro.trocarOleo();
 			}
 		}
 
-	}
-
-	public Veiculo getVeiculos(int i) {
-		return veiculos[i];
+		this.veiculos[inicioFila] = null;
+		this.inicioFila++;
 	}
 }
