@@ -1,1 +1,1 @@
-# Programação Orientada a Objetos em Java Estácio
+# Lista de Atividades de Programação Orientada a Objetos em Java Estácio
